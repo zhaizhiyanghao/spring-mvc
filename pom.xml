@@ -14,7 +14,7 @@
     <url>http://maven.apache.org</url>
     <properties>
         <!-- spring版本号 -->
-        <spring.version>5.0.8.RELEASE</spring.version>
+        <spring.version>4.0.8.RELEASE</spring.version>
         <!-- mybatis版本号 -->
         <mybatis.version>3.2.6</mybatis.version>
         <!-- log4j日志文件管理包版本 -->
@@ -80,6 +80,16 @@
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+            <scope>test</scope>
+        </dependency>
+
+
         <!-- mybatis核心包 -->
         <dependency>
             <groupId>org.mybatis</groupId>
