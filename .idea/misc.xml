@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://D:/hjqb/workspace_hjqb/gbanker-finance-gateway/finance-gateway-web" />
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/hjqb/workspace_hjqb/gbanker-finance-gateway/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="D:/hjqb/workspace_hjqb/gbanker-finance-gateway/finance-gateway-facade/pom.xml" />
+        <option value="D:/hjqb/workspace_hjqb/gbanker-finance-gateway/finance-gateway-service/pom.xml" />
+        <option value="D:/hjqb/workspace_hjqb/gbanker-finance-gateway/finance-gateway-web/pom.xml" />
+        <option value="D:/hjqb/workspace_hjqb/gbanker-finance-gateway/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK">

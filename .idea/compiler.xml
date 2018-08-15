@@ -10,6 +10,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="finance-gateway-facade" target="1.7" />
+      <module name="finance-gateway-service" target="1.7" />
+      <module name="finance-gateway-web" target="1.7" />
+      <module name="gbanker-finance-gateway" target="1.7" />
       <module name="springmvc" target="1.6" />
     </bytecodeTargetLevel>
   </component>
